@@ -13,3 +13,6 @@ def get_long_lived_token(short_lived_token):
     long_lived_token = response.json()["access_token"]
 
     # Return the long-lived token
+ 
+    print("Long-lived token: ")
+    print(long_lived_token)
