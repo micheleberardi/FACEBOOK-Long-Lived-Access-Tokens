@@ -1,4 +1,4 @@
-# How Create Facebook-Long-Lived-Access-Token
+# How to Create Facebook-Long-Lived-Access-Token
 
 Here's an example of how to obtain a long-lived access token in Python using the Facebook Graph API:
 
