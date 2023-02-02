@@ -18,6 +18,9 @@ def get_long_lived_token(short_lived_token):
     long_lived_token = response.json()["access_token"]
 
     # Return the long-lived token
+ 
+    print("Long-lived token: ")
+    print(long_lived_token)
 ```
 
 This code demonstrates how to obtain a long-lived access token using the Facebook Graph API and the requests library in Python. The get_long_lived_token function takes a short-lived token as input and returns a long-lived token. The function constructs a URL to make a request to the Facebook Graph API to exchange the short-lived token for a long-lived token. The response is in JSON format, and the long-lived token is extracted from the access_token field.
